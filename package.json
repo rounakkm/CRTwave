@@ -1,0 +1,21 @@
+{
+  "name": "CRTwave",
+  "displayName": "CRTwave",
+  "description": " Based on classic DOS interfaces",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CRTwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CRTwave-color-theme.json"
+      }
+    ]
+  }
+}
