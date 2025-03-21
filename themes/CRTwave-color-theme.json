@@ -11,10 +11,10 @@
 		"editorIndentGuide.background": "#003300",
 		"editorIndentGuide.activeBackground": "#007700",
 
-		"sideBar.background": "#000000",
+		"sideBar.background": "#001800",
 		"sideBar.foreground": "#00DD00",
 
-		"statusBar.background": "#001800",
+		"statusBar.background": "#032403",
 		"statusBar.foreground": "#00DD00",
 
 		"titleBar.activeBackground": "#001100",
@@ -25,6 +25,8 @@
 		"terminalCursor.foreground": "#00FF00",
 		"terminal.ansiGreen": "#00FF00",
 		"terminal.ansiRed": "#FF3333"
+
+
 		
 	},
 	"tokenColors": [
@@ -36,7 +38,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#008800"   //Darker Green
 			}
 		},
 		{
@@ -46,7 +48,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#00FF00"           // Bright Green
 			}
 		},
 		{
@@ -55,7 +57,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#BBBBBB"       // dimmed white
 			}
 		},
 		{
@@ -65,7 +67,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF3333"  //bright red
 			}
 		},
 		{
@@ -76,7 +78,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00AAAA"   //Darker Cyan
 			}
 		},
 		{
@@ -96,7 +98,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#0055FF"  //Deep Blue
 			}
 		},
 		{
@@ -107,7 +109,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ff2c2c"   //Need some changes here
 			}
 		},
 		{
@@ -120,7 +122,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#00EE00" //Soft green
 			}
 		},
 		{
@@ -129,7 +131,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#AA5500" //Dark Amber
 			}
 		},
 		{
@@ -139,7 +141,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#AAAA00" //Deep Yellow
 			}
 		},
 		{
@@ -155,7 +157,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ffffff"      //White
 			}
 		},
 		{
@@ -170,7 +172,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#DDDD77"
 			}
 		},
 		{
@@ -333,7 +335,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#edff89"
 			}
 		},
 		{
@@ -644,6 +646,30 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
+		},
+
+
+		// Not working 
+		{
+			"name": "Shell - cmds",
+			"scope": [
+				"source.shell",
+				"keyword.other.special-method.shell"
+			],
+			"settings": {
+				"foreground": "#00FF00"
+			}
+		},
+		{
+			"name": "quoted - text",
+			"scope": [
+				"string.quoted.double.shell",
+				"string.quoted.single.shell"
+			],
+			"settings": {
+				"foreground": "#00AA00"
+			}
 		}
+		
 	]
 }
