@@ -1,7 +1,7 @@
 {
   "name": "CRTwave",
   "displayName": "CRTwave",
-  "description": " Based on classic DOS interfaces",
+  "description": "Based on classic DOS interfaces",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.98.0"
@@ -17,5 +17,11 @@
         "path": "./themes/CRTwave-color-theme.json"
       }
     ]
-  }
+  },
+  "configurationDefaults": {
+  "editor.fontFamily": "'Share Tech Mono', 'monospace'",
+  "editor.fontSize": 14,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 1.4
+}
 }
