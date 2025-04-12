@@ -88,7 +88,7 @@
 
     "quickInput.background": "#002200",
     "quickInput.foreground": "#00FF00"
-    // "quickInput.border": "#009900"
+    
   },
   "tokenColors": [
     {
@@ -96,35 +96,35 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#008800" //Darker Green
+        "foreground": "#008800" 
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#00FF00" // Bright Green
+        "foreground": "#00FF00" 
       }
     },
     {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#BBBBBB" // dimmed white
+        "foreground": "#BBBBBB" 
       }
     },
     {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF3333" //bright red
+        "foreground": "#FF3333" 
       }
     },
     {
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#00ffff" //Darker Cyan
+        "foreground": "#00ffff" 
       }
     },
     {
@@ -144,7 +144,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#fbff00" //Yellow
+        "foreground": "#fbff00" 
       }
     },
     {
@@ -155,7 +155,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#ff2c2c" //Need some changes here
+        "foreground": "#ff5252" 
       }
     },
     {
@@ -168,21 +168,21 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#00EE00" //Soft green
+        "foreground": "#b2acff" 
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#AA5500" //Dark Amber
+        "foreground": "#AA5500" 
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#AAAA00" //Deep Yellow
+        "foreground": "#AAAA00" 
       }
     },
     {
@@ -198,7 +198,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ffffff" //White
+        "foreground": "#ffffff" 
       }
     },
     {
@@ -632,7 +632,7 @@
       }
     },
 
-    // Not working
+
     {
       "name": "Shell - cmds",
       "scope": ["source.shell", "keyword.other.special-method.shell"],
