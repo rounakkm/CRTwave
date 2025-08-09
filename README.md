@@ -1,6 +1,6 @@
 # CRTwave Theme for VS Code  
 
-### Retro CRT Hacker Aesthetic Theme  
+### Retro CRT Aesthetic Theme  
 CRTwave is a retro-styled Visual Studio Code theme that brings back the look of old CRT monitors and DOS terminals. It features a deep green-on-black color scheme, subtle glow effects, and an immersive vintage computing aesthetic.
 
 ##  Features
